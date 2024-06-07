@@ -39,6 +39,9 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#interest">Areas of Interest</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
@@ -55,48 +58,63 @@
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/prof.png" alt="">
-        <h1 class="text-uppercase mb-0">Hello World</h1>
-        <hr class="star-light">
-        <h2 class="text-uppercase mb-0">I am a software and web developer, with a stack in Javascript and Go, as well as C/C++. I am also training to become a linux admin, and to be certified </h2>
-        <h5 class="font-weight-light mb-0"><b>C + C++ - Javascript + Go - Linux</b></h2>
+        <!--img class="img-fluid mb-5 d-block mx-auto" src="img/prof.png" alt=""-->
+        <h1 class="text-uppercase mb-0">Sean Theisen</h1>
+        <hr>
+        <h4 class="text-uppercase mb-0">Data Analyst and Scientist</h2>
+        <hr>
+        <h4>Virginia Tech:</h4>
+        <h5 class="font-weight-light mb-0"><b>BS: Computational Modeling and Data Analytics</b></h2>
+        <h5 class="font-weight-light mb-0"><b>Minor: Mathematics</b></h2>
       </div>
     </header>
 
+    <!-- Areas of Interest Grid Section -->
+    <section class="portfolio" id="interest">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0"><a >Areas of Interest</a></h2>
+        <hr>
+        <div class="row">
+          <ul>
+            <li><h5 class="font-weight-light mb-0">Data Analysis: Python, R, PowerBI, Visualization</h2></li>
+            <br>
+            <li><h5 class="font-weight-light mb-0">Data Science: Numpy, Statistics, Mathematics</h2></li>
+              <br>
+            <li><h5 class="font-weight-light mb-0">Mathematical Modeling: Regression, Machine Learning </h5></li>
+            <br>
+            <li><h5 class="font-weight-light mb-0">Neural Networks </h5></li>
+            <br>
+            <li><h5 class="font-weight-light mb-0">Cyber Security: Cryptosystem Development and Attacks</h5></li>
+            <br>
+            <li><h5 class="font-weight-light mb-0">High Performance Computing: C, Cuda, Parallelization</h5></li>
+            <br>
+            <li><h5 class="font-weight-light mb-0">Software Development: Golang, Java, JavaScript </h5></li>
+          </ul>
+        </div>
+    </section>
     <!-- Portfolio Grid Section -->
     <section class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0"><a href=https://github.com/seant4>Projects</a></h2>
-        <hr class="star-dark mb-5">
+        <hr style="height:100">
         <div class="row">
           <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/stars.png" alt="">
+            <a class="portfolio-item d-block mx-auto">
+              <h1 style="text-align: center;" ><a href="https://github.com/seant4/ai_diagnosis/tree/master">AI Diagnosis</a></h1>
+              <h5 style="text-align: center;">Tensorflow Neural Network that predicts a diagnosis from a set of symptoms</h5>
+              <h5 style="text-align: center;">Features a web based user interface</h5>
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/game.png" alt="">
+            <a class="portfolio-item d-block mx-auto">
+              <h1 style="text-align: center;" ><a href="pages/tddash.html">Thyroid Disease Modeling</a></h1>
+              <h5 style="text-align: center;">Interactive dashboard outlining machine learning to predict thyroid disease recurrence</h5>
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/music.png" alt="">
+              <h1 style="text-align: center;" ><a href="https://github.com/seant4/Network_Security_Analysis">Network Analysis and Visualization</a></h1>
+              <h5 style="text-align: center;">Network security monitoring and visualization tool</h5>
             </a>
           </div>
         </section>
@@ -104,14 +122,14 @@
     <section class="bg-primary text-white mb-0" id="about">
       <div class="container">
         <h2 class="text-center text-uppercase text-white">About</h2>
-        <h3 class="text-center text-uppercase text-white"><a href = https://github.com/seant4/MediaPlayer style="color: white">Github</a></h3>
-        <hr class="star-light mb-5">
+        <h3 class="text-center text-uppercase text-white"><a href = https://github.com/seant4/ style="color: white">Github</a></h3>
+        <hr>
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p class="lead">I am a software developer, using C/C++ to make the next best software, and Javscript with Golang to make the next best web app</p>
+            <p class="lead">Data Analyst/Scientist with experience in Computer Vision,Predictive Modeling, and Cyber Security.</p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p class="lead">I am a linux user and developer</p>
+            <p class="lead">2 years of professional experience in Cyber Security doing research and Data Visualizations</p>
           </div>
         </div>
         <div class="text-center mt-4">
@@ -142,84 +160,6 @@
       <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
         <i class="fa fa-chevron-up"></i>
       </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Cosmos</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/stars.png" alt="">
-              <p class="mb-5">
-                A simulation of colliding black holes</p>
-                <p><a href=https://github.com/seant4/cosmos>Github</a></p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Chisana Tori o Tobu</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
-              <p class="mb-5">Chisana Tori o Tobu is a byte sized arcade game, being developed for Android, Iphone, Ipod-touch, and desktop platforms such as Mac, Linux and Pc. In this fun-sized arcade game, take control of a brave little bird, soaring as high as you can. Dodge obstacles and you fly as high as posibly, to get the highest score. Mobile versions will utilize tilt controls to move the bird left and right. The game is currently fully playable on windows, mobile versions to come!</p>
-              <p class="mb-5"><a href=https://github.com/seant4/Chisana-Trori-o-Tobu>Github</a></p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Media Player</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/music.png" alt="">
-              <p class="mb-5">MP3 player written in c++ with the qt framework.
-
-                TODO-
-                
-                Fix listview in middle.
-                
-                allow user to select folder to select songs from list view.</p>
-                <p><a href =https://github.com/seant4/MediaPlayer>Github</a></p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
     
