@@ -58,9 +58,9 @@
     </nav>
 
     <!-- Header -->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid", style="padding-bottom: 30px">
       <div class="container">
-        <h1 class="display-4", style="text-align: center; padding-top: 25px;">Sean Theisen</h1>
+        <h1 class="display-4", style="text-align: center; padding-top: 25px; ">Sean Theisen</h1>
         <p class="lead", style="text-align: center;">Data Analyst turning datasets into actionable insights</p>
       </div>
     </div>
@@ -68,19 +68,20 @@
     <!-- Portfolio Grid Section -->
     <section class="portfolio" id="portfolio">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0"><a href=https://github.com/seant4>Projects</a></h2>
+        <h2 class="text-center text-uppercase text-secondary mb-0">Project Experience</h2>
         <hr style="height:100">
         <div class="row", style="padding-top:20px; padding-bottom: 50px;">
           <div style="flex: 1; text-align: right; padding-left: 20px;">
-            <video style="max-width: 100%; height: auto;" autoplay muted>
+            <video style="max-width: 100%; height: auto;" autoplay muted controls>
               <source src="/img/exv.mp4" type="video/mp4">
             </video>
             <i style="text-align: center;">Personal Tablaeu Project</i>
           </div>
           <div class="col-md-6">
             <a class="portfolio-item d-block mx-auto">
-              <h1 style="text-align: center;" ><a href="https://us-east-1.online.tableau.com/t/seanjtheisen063acb751a/views/Dashboard/Dashboard1?:origin=card_share_link&:embed=n">Online Storefront Dashboard</a></h1>
-              <h5 style="text-align: center;">Interactive dashboard created in Tableau that provides visualizations of an online storefronts sales and demographic data (Note, Tabaeu account required to view)</h5>
+              <h1 style="text-align: center;" >Online Storefront Dashboard</h1>
+              <h5 style="text-align: center;">Interactive dashboard created in Tableau that provides visualizations of online storefront sales and demographic data.</h5>
+              <h5 style="text-align: center;"> <a href="https://tabsoft.co/45joFpm">Link to the live dashboard can be found here</a></h5>
             </a>
           </div>
 
@@ -88,8 +89,9 @@
           <div class="row", style="padding-top:50px; padding-bottom: 50px;">
           <div class="col-md-6">
             <a class="portfolio-item d-block mx-auto">
-              <h1 style="text-align: center;" ><a href="pages/tddash.html">Thyroid Disease Modeling</a></h1>
-              <h5 style="text-align: center;">Interactive dashboard outlining machine learning to predict thyroid disease recurrence. Created in R with FlexDashboard and R-Markdown</h5>
+              <h1 style="text-align: center;" >Thyroid Disease Modeling</h1>
+              <h5 style="text-align: center;">Interactive dashboard outlining the use of machine learning to predict thyroid disease recurrence. Created in R with FlexDashboard and R-Markdown</h5>
+              <h5 style="text-align: center;"> <a href="pages/tddash.html">Link to the live dashboard can be found here</a></h5>
             </a>
           </div>
           <div class="col-md-6">
@@ -98,65 +100,72 @@
         </div>
         <div class="row", style="padding-top:50px; padding-bottom: 50px;">
           <div class="col-md-6">
-            <img src="img/examples/net.png", style="max-width: 100%; max-height: 100%;" />
-          </div>
-          <div class="col-md-6">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-              <h1 style="text-align: center;" ><a href="https://github.com/seant4/Network_Security_Analysis">Network Analysis and Visualization</a></h1>
-              <h5 style="text-align: center;">Packet analysis and visualization tool. Utilizes packet captures and creates a heatmap based on the scans done on each port vs each ip address. Build with Python for data manipulation and conversion, R for visualization</h5>
-            </a>
+            <img src="img/examples/net2.png", style="max-width: 100%; max-height: 100%;" />
           </div>
           <div class="col-md-6">
             <a class="portfolio-item d-block mx-auto">
-              <h1 style="text-align: center;" ><a href="https://github.com/seant4/ai_diagnosis/tree/master">AI Diagnosis</a></h1>
-              <h5 style="text-align: center;">Tensorflow Neural Network that predicts a diagnosis from a set of symptoms</h5>
-              <h5 style="text-align: center;">Features a web based user interface</h5>
+              <h1 style="text-align: center;">Network Analysis and Visualization</h1>
+              <h5 style="text-align: center;">Packet analysis and visualization tool. Utilizes packet captures and creates a heatmap based on the scans done on each port vs each IP address. Built with Python for data manipulation and conversion, R for visualization</h5>
+              <h5 style="text-align: center;"><a href="https://github.com/seant4/Network_Security_Analysis"> Link to the projects github page can be found here </a></h5>
+            </a>
+          </div>
+          <div class="row", style="padding-top:50px; ">
+          <div class="col-md-6">
+            <a class="portfolio-item d-block mx-auto">
+              <h1 style="text-align: center;">AI Diagnosis</h1>
+              <h5 style="text-align: center;">Tensorflow neural network that predicts a diagnosis from a set of symptoms.</h5>
+              <h5 style="text-align: center;">Features a web-based user interface.</h5>
+              <h5 style="text-align: center;"><a href="https://github.com/seant4/ai_diagnosis/tree/master">Link to the project github page can be found here</a></h5>
             </a>
           </div>
           <div class="col-md-6">
             <img src="img/examples/nn.png", style="max-width: 100%; max-height: 100%;" />
           </div>
         </div>
+        </div>
+        <div class="container", id="interest">
+          <h2 class="text-center text-uppercase text-secondary mb-0"><a >Areas of Expertise</a></h2>
+          <hr>
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <ul>
+              <li><h5 class="font-weight-light mb-0">Data Analysis: Python, R, PowerBI, Tableau, Visualization</h2></li>
+              <br>
+              <li><h5 class="font-weight-light mb-0">Data Science: Numpy, Statistics, Mathematics</h2></li>
+                <br>
+              <li><h5 class="font-weight-light mb-0">Mathematical Modeling: Regression, Machine Learning </h5></li>
+              <br>
+              <li><h5 class="font-weight-light mb-0">Neural Networks </h5></li>
+              <br>
+              <li><h5 class="font-weight-light mb-0">Cyber Security: Cryptosystem Development and Attacks</h5></li>
+              <br>
+              <li><h5 class="font-weight-light mb-0">High Performance Computing: C, Cuda, Parallelization</h5></li>
+              <br>
+              <li><h5 class="font-weight-light mb-0">Software Development: Golang, Java, JavaScript </h5></li>
+            </ul>
+          <div style="flex: 1; text-align: right; padding-left: 20px;">
+            <img src="/img/ex1.png" width="80%" />
+          </div>
+          </div>
         </section>
     <!-- Areas of Interest Grid Section -->
-    <section class="portfolio" id="interest">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0"><a >Areas of Expertise</a></h2>
-        <hr>
-        <div style="display: flex; justify-content: space-between; align-items: center;">
-          <ul>
-            <li><h5 class="font-weight-light mb-0">Data Analysis: Python, R, PowerBI, Tableau, Visualization</h2></li>
-            <br>
-            <li><h5 class="font-weight-light mb-0">Data Science: Numpy, Statistics, Mathematics</h2></li>
-              <br>
-            <li><h5 class="font-weight-light mb-0">Mathematical Modeling: Regression, Machine Learning </h5></li>
-            <br>
-            <li><h5 class="font-weight-light mb-0">Neural Networks </h5></li>
-            <br>
-            <li><h5 class="font-weight-light mb-0">Cyber Security: Cryptosystem Development and Attacks</h5></li>
-            <br>
-            <li><h5 class="font-weight-light mb-0">High Performance Computing: C, Cuda, Parallelization</h5></li>
-            <br>
-            <li><h5 class="font-weight-light mb-0">Software Development: Golang, Java, JavaScript </h5></li>
-          </ul>
-        <div style="flex: 1; text-align: right; padding-left: 20px;">
-          <img src="/img/ex1.png" width="80%" />
-        </div>
-        </div>
-    </section>
     <!-- About Section -->
     <section class="bg-primary text-white mb-0" id="about">
       <div class="container">
         <h2 class="text-center text-uppercase text-white">About</h2>
-        <h3 class="text-center text-uppercase text-white"><a href = https://github.com/seant4/ style="color: white">Github</a></h3>
         <hr>
         <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p class="lead">Data Analyst/Scientist with experience in Computer Vision,Predictive Modeling, and Cyber Security.</p>
-          </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">2 years of professional experience in Cyber Security doing research and Data Visualizations</p>
-          </div>
+            <ul>
+              <li><h5>Education</h5></li>
+              <h5>Virginia Tech: Computational Modeling and Data Analytics</h5>
+              <li><h5>Work Experience</h5></li>
+              <h5>Intern: Virginia Tech I.T. Security Office, 2 years</h5>
+              <li><h5>Contact:</h5></li>
+              <ul>
+                <li><h5><a href="https://www.linkedin.com/in/sean-theisen/", style="color:white">Linkedin</a></h5></li>
+                <li><h5>seanjt829@gmail.com</h5></li>
+              </ul>
+
+            </ul>
         </div>
         <div class="text-center mt-4">
           <!a class="btn btn-xl btn-outline-light" href="#"!>
@@ -166,29 +175,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Contact Section -->
-    
-
-    <!-- Footer -->
-    <footer class="footer text-center">
-  
-    </footer>
-
-    <div class="copyright py-4 text-center text-white">
-      <div class="container">
-        <small></small>
-      </div>
-    </div>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-to-top d-lg-none position-fixed ">
-      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
-    </div>
-
-    
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
