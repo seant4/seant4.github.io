@@ -31,9 +31,9 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Sean</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top", style="color:white">Sean Theisen</a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -41,13 +41,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#interest">Areas of Expertise</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio", style="color:white">Project Experience</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#interest", style="color:white">Expertise</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about", style="color:white">About</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <!a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact"></a>
@@ -58,18 +58,66 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead bg-primary text-white text-center">
+    <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <!--img class="img-fluid mb-5 d-block mx-auto" src="img/prof.png" alt=""-->
-        <h1 class="text-uppercase mb-0">Sean Theisen</h1>
-        <hr>
-        <h4 class="text-uppercase mb-0">Data Analyst and Scientist</h2>
-        <hr>
-        <h5>Hello, I am a passionate Data Analyst/Scientist with professional experience in turning large and complex datasets into actionable insights.</h5>
-
+        <h1 class="display-4", style="text-align: center; padding-top: 25px;">Sean Theisen</h1>
+        <p class="lead", style="text-align: center;">Data Analyst turning datasets into actionable insights</p>
       </div>
-    </header>
+    </div>
 
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0"><a href=https://github.com/seant4>Projects</a></h2>
+        <hr style="height:100">
+        <div class="row", style="padding-top:20px; padding-bottom: 50px;">
+          <div style="flex: 1; text-align: right; padding-left: 20px;">
+            <video style="max-width: 100%; height: auto;" autoplay muted>
+              <source src="/img/exv.mp4" type="video/mp4">
+            </video>
+            <i style="text-align: center;">Personal Tablaeu Project</i>
+          </div>
+          <div class="col-md-6">
+            <a class="portfolio-item d-block mx-auto">
+              <h1 style="text-align: center;" ><a href="https://us-east-1.online.tableau.com/t/seanjtheisen063acb751a/views/Dashboard/Dashboard1?:origin=card_share_link&:embed=n">Online Storefront Dashboard</a></h1>
+              <h5 style="text-align: center;">Interactive dashboard created in Tableau that provides visualizations of an online storefronts sales and demographic data (Note, Tabaeu account required to view)</h5>
+            </a>
+          </div>
+
+        </div>
+          <div class="row", style="padding-top:50px; padding-bottom: 50px;">
+          <div class="col-md-6">
+            <a class="portfolio-item d-block mx-auto">
+              <h1 style="text-align: center;" ><a href="pages/tddash.html">Thyroid Disease Modeling</a></h1>
+              <h5 style="text-align: center;">Interactive dashboard outlining machine learning to predict thyroid disease recurrence. Created in R with FlexDashboard and R-Markdown</h5>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <img src="img/examples/td.png", style="max-width: 100%; max-height: 100%;" />
+          </div>
+        </div>
+        <div class="row", style="padding-top:50px; padding-bottom: 50px;">
+          <div class="col-md-6">
+            <img src="img/examples/net.png", style="max-width: 100%; max-height: 100%;" />
+          </div>
+          <div class="col-md-6">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <h1 style="text-align: center;" ><a href="https://github.com/seant4/Network_Security_Analysis">Network Analysis and Visualization</a></h1>
+              <h5 style="text-align: center;">Packet analysis and visualization tool. Utilizes packet captures and creates a heatmap based on the scans done on each port vs each ip address. Build with Python for data manipulation and conversion, R for visualization</h5>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a class="portfolio-item d-block mx-auto">
+              <h1 style="text-align: center;" ><a href="https://github.com/seant4/ai_diagnosis/tree/master">AI Diagnosis</a></h1>
+              <h5 style="text-align: center;">Tensorflow Neural Network that predicts a diagnosis from a set of symptoms</h5>
+              <h5 style="text-align: center;">Features a web based user interface</h5>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <img src="img/examples/nn.png", style="max-width: 100%; max-height: 100%;" />
+          </div>
+        </div>
+        </section>
     <!-- Areas of Interest Grid Section -->
     <section class="portfolio" id="interest">
       <div class="container">
@@ -96,59 +144,6 @@
         </div>
         </div>
     </section>
-    <!-- Portfolio Grid Section -->
-    <section class="portfolio" id="portfolio">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0"><a href=https://github.com/seant4>Projects</a></h2>
-        <hr style="height:100">
-        <div class="row">
-          <div style="flex: 1; text-align: right; padding-left: 20px;">
-            <video style="max-width: 100%; height: auto;" autoplay muted>
-              <source src="/img/exv.mp4" type="video/mp4">
-            </video>
-            <i style="text-align: center;">Personal Tablaeu Project</i>
-          </div>
-          <div class="col-md-6">
-            <a class="portfolio-item d-block mx-auto">
-              <h1 style="text-align: center;" ><a href="https://us-east-1.online.tableau.com/t/seanjtheisen063acb751a/views/Dashboard/Dashboard1?:origin=card_share_link&:embed=n">Online Storefront Dashboard</a></h1>
-              <h5 style="text-align: center;">Interactive dashboard created in Tableau that provides visualizations of an online storefronts sales and demographic data (Note, Tabaeu account required to view)</h5>
-            </a>
-          </div>
-
-        </div>
-          <div class="row">
-          <div class="col-md-6">
-            <a class="portfolio-item d-block mx-auto">
-              <h1 style="text-align: center;" ><a href="pages/tddash.html">Thyroid Disease Modeling</a></h1>
-              <h5 style="text-align: center;">Interactive dashboard outlining machine learning to predict thyroid disease recurrence. Created in R with FlexDashboard and R-Markdown</h5>
-            </a>
-          </div>
-          <div class="col-md-6">
-            <img src="img/examples/td.png", style="max-width: 100%; max-height: 100%;" />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <img src="img/examples/net.png", style="max-width: 100%; max-height: 100%;" />
-          </div>
-          <div class="col-md-6">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-              <h1 style="text-align: center;" ><a href="https://github.com/seant4/Network_Security_Analysis">Network Analysis and Visualization</a></h1>
-              <h5 style="text-align: center;">Packet analysis and visualization tool. Utilizes packet captures and creates a heatmap based on the scans done on each port vs each ip address. Build with Python for data manipulation and conversion, R for visualization</h5>
-            </a>
-          </div>
-          <div class="col-md-6">
-            <a class="portfolio-item d-block mx-auto">
-              <h1 style="text-align: center;" ><a href="https://github.com/seant4/ai_diagnosis/tree/master">AI Diagnosis</a></h1>
-              <h5 style="text-align: center;">Tensorflow Neural Network that predicts a diagnosis from a set of symptoms</h5>
-              <h5 style="text-align: center;">Features a web based user interface</h5>
-            </a>
-          </div>
-          <div class="col-md-6">
-            <img src="img/examples/nn.png", style="max-width: 100%; max-height: 100%;" />
-          </div>
-        </div>
-        </section>
     <!-- About Section -->
     <section class="bg-primary text-white mb-0" id="about">
       <div class="container">
